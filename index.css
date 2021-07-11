@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: #FBE4FF; 
+    position: fixed;
+    z-index: 99;
+    border-radius: 11px;
+}
+
+.img-logo {
+    width: 4%; 
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu {
+    width: 80%;
+    height: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    float: right;
+    margin: 8px 0 8px 0;
+    padding-left: 0;
+}
+
+.menu ul li{
+    float: left;
+    padding: 27px;
+    margin-top: -10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+  
+.gambar {
+    width: 100%;
+    height: 100%;
+}
+.nama {
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-family: serif;
+}
+
+.buttom{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
